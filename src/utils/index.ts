@@ -1,2 +1,2 @@
-export { createTone } from "./createTone";
-export { createPalette } from "./createPalette";
+export { createTone } from "./createTone/createTone";
+export { createPalette } from "./createPalette/createPalette";

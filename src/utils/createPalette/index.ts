@@ -1,0 +1,1 @@
+export { createPalette } from "./createPalette";

@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+
+  .palette-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .palette-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f9f9f9;
+
+    .color-box {
+      padding: 16px;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      color: black;
+    }
+
+    .color-data {
+      padding: 8px;
+      font-size: 12px;
+      background: #fff;
+      overflow-x: auto;
+    }
+  }
+}
